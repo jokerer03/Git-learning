@@ -14,6 +14,8 @@ const date = Date.now();
     await page.goto('/');
   })
 
+let N_ew = 23;
+
   test ('should succesfuly sign up', async({page})=>{
 
     await page.locator('a', { hasText: "Sign up" }).click();
